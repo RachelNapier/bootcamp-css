@@ -7,23 +7,12 @@ body {
 	background-size: cover;
 }
 
-h2 {
+h2, p {
 	color: darkgreen;
-	text-align: center;
-	border: 5px solid rgba(255, 176, 178, 0.2);
-	cursor: pointer;
-}
-h2 p {
-	color: darkgreen;
-	text-align: center;
+	text-align: center; 
 	border: 5px solid rgba(255, 176, 178, 0.2);
 	cursor: pointer;
 
-}
-
-p {
-	color: green;
-	text-align: center;
 }
 
 li {
@@ -31,7 +20,7 @@ li {
 	display: inline-block;
 }
 
-.webtext {
+.webtext:first-child {
 	border: 5px dashed rgba(000, 200, 100, 0.2); 
 }
 
