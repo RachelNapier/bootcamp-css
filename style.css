@@ -1,8 +1,19 @@
+* {
+	text-align: right;
+}
+
 body {
 	background-image: url(leaves.png);
 	background-size: cover;
 }
-h2, p {
+
+h2 {
+	color: darkgreen;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 178, 0.2);
+	cursor: pointer;
+}
+h2 p {
 	color: darkgreen;
 	text-align: center;
 	border: 5px solid rgba(255, 176, 178, 0.2);
